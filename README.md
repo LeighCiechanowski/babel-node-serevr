@@ -1,2 +1,2 @@
-# babel-node-serevr
+# babel-node-server
 Scaffold babel node server
