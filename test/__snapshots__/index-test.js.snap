@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`routes: index should respond as expected 1`] = `
+exports[`routes: index get should respond as expected 1`] = `
 Object {
   "data": "pong",
 }
 `;
+
+exports[`routes: index post should respond as expected 1`] = `Object {}`;
