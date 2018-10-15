@@ -15,5 +15,5 @@ describe('routes: index', () => {
     const response = await request(server).post('/post');
     expect(response.status).toEqual(201);
     expect(response.body).toMatchSnapshot();
-  })
+  });
 });

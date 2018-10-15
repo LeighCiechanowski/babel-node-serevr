@@ -1,0 +1,10 @@
+version: '2.3'
+services:
+  babel-koa-server:
+    build:
+      context: .
+    volumes:
+      - /app/node_modules
+      - .:/app
+    ports:
+      - 1337:1337

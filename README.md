@@ -27,3 +27,7 @@ To build the project for production, use `npm run build && npm run serve`.
 
 ## Tests
 `npm run test`.
+
+## Docker
+
+`docker-compose up --build`

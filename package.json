@@ -9,7 +9,8 @@
     "serve": "node dist/index.js",
     "test": "jest --config ./jest-config.js",
     "lint": "eslint src test",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "lint-staged && npm test"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
     "supertest": "^3.3.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "dotenv": "^6.0.0",
     "getenv": "^0.7.0",
     "koa": "^2.5.3",

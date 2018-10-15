@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import Koa from 'koa';
 import routes from './routes';
 import config from './config';
