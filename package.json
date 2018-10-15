@@ -25,6 +25,7 @@
     "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0",
     "nodemon": "^1.18.4",
+    "pre-commit": "^1.2.2",
     "supertest": "^3.3.0"
   },
   "dependencies": {
