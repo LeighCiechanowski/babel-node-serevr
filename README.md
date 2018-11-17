@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/410358/48665442-4b15f100-eaa6-11e8-879d-16a722d091f9.jpeg"/>
+</p>
+
 # Scaffold Babel Koa Node API
 
 ## Introduction
